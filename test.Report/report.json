@@ -27,13 +27,22 @@
       "name": "31b8627aa990536dae03",
       "visualContainers": [
         {
-          "config": "{\"name\":\"2b8adac168b8cc5ce518\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":79.75683890577508,\"z\":0,\"width\":840.3647416413374,\"height\":473.677811550152,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Campaign.Name\"},{\"queryRef\":\"Sum(Campaign.Goal)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Campaign\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"Campaign.Name\",\"NativeReferenceName\":\"Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Goal\"}},\"Function\":0},\"Name\":\"Sum(Campaign.Goal)\",\"NativeReferenceName\":\"Sum of Goal\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"2b8adac168b8cc5ce518\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":79.75683890577508,\"z\":0,\"width\":470.7598784194529,\"height\":467.84194528875383,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Campaign.Name\"},{\"queryRef\":\"Sum(Campaign.Goal)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Campaign\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"Campaign.Name\",\"NativeReferenceName\":\"Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Goal\"}},\"Function\":0},\"Name\":\"Sum(Campaign.Goal)\",\"NativeReferenceName\":\"Sum of Goal\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 473.68,
-          "width": 840.36,
+          "height": 467.84,
+          "width": 470.76,
           "x": 0.00,
           "y": 79.76,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"3759a4c00507e66b0924\",\"layouts\":[{\"id\":0,\"position\":{\"x\":566.0790273556231,\"y\":166.32218844984803,\"z\":1,\"width\":470.7598784194529,\"height\":161.45896656534956,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Campaign.Initiative\"},{\"queryRef\":\"Campaign.Name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Campaign\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Initiative\"},\"Name\":\"Campaign.Initiative\",\"NativeReferenceName\":\"Initiative\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"Campaign.Name\",\"NativeReferenceName\":\"Name\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 161.46,
+          "width": 470.76,
+          "x": 566.08,
+          "y": 166.32,
+          "z": 1.00
         }
       ],
       "width": 1280.00
